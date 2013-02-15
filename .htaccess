@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^(setup|logout)$ index.php?$1 [L]
+RewriteRule ^(login|settings|dialer|sms)$ $1.php [L]
+RewriteRule ^messages\/(\d+)$ folder.php?id=$1 [L]
+RewriteRule ^messages\/details\/(\d+)$ message.php?id=$1 [L]
+RewriteRule ^messages\/details\/(\d+)\/(archive)$ message.php?id=$1&$2 [L]

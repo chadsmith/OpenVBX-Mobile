@@ -1,0 +1,30 @@
+.setup,
+.login {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+.message h2 {
+  margin-bottom: 0;
+}
+.message h3 {
+  margin: 0;
+}
+.message h4 {
+  margin: 0;
+}
+audio {
+  width: 100%;
+}
+.footer.ui-bar {
+  text-align: center;
+}
+.messages .ui-listview .ui-li-icon {
+  top: 50%;
+  margin-top: -7px;
+}
+.folder .ui-listview .ui-li-icon {
+  top: 50%;
+  margin-top: -8px;
+}
